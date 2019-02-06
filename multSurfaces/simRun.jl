@@ -1,6 +1,4 @@
-push!(LOAD_PATH,"../../src/")
-import UNSflow
-
+using UnsteadyFlowSolvers
 
 alphadef1 = UNSflow.ConstDef(45. *pi/180)
 alphadef2 = UNSflow.ConstDef(5. *pi/180)

@@ -1,7 +1,6 @@
-push!(LOAD_PATH,"../../src/")
 using UnsteadyFlowSolvers
 
-alphadef = ConstDef(5. *pi/180)
+alphadef = ConstDef(10. *pi/180)
 
 hdef = ConstDef(0.)
 
@@ -13,7 +12,7 @@ pvt = 0.25
 
 geometry = "FlatPlate"
 
-surf = TwoDSurf(geometry, pvt, full_kinem)
+surf = TwoDSurf(geometry, pvt, full_kinem, rho = 0.02)
 
 curfield = TwoDFlowField()
 

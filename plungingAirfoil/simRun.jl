@@ -1,4 +1,3 @@
-push!(LOAD_PATH,"../../src/")
 using UnsteadyFlowSolvers
 
 alphadef = ConstDef(4. *pi/180)

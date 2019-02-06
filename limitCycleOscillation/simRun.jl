@@ -1,4 +1,3 @@
-push!(LOAD_PATH,"../../src/")
 using UnsteadyFlowSolvers
 
 alpha_init = 10. *pi/180
